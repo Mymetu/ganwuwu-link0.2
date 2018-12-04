@@ -2,7 +2,7 @@
 land.php内存放更新内容。
 
 
-1，数据库配置文件是/admin/user.php
+	1，数据库配置文件是/admin/user.php
 	2，数据库有两个表，需要自己创建，手动设置。
 
 	user表:
@@ -11,7 +11,8 @@ land.php内存放更新内容。
 	password [varchar(16)]
 	date [int(11)]
 
-useradd表：
+	useradd表：
+
 	id [int(12) 主键，自增]
 	date [int(11)]
 	linkname[varchar(25)]
